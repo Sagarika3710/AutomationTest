@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends TestBase {
 
-	@FindBy(xpath = "//div[contains(text(),\"Sagarika\")]")
+	@FindBy(xpath = "//div[contains(text(),\"Dummy User\")]")
 	@CacheLookup
 	WebElement userNameLabel;
 	
