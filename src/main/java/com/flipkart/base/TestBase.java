@@ -20,8 +20,9 @@ public class TestBase {
 	public TestBase() {
 		 try {
 		prop =new Properties();
-		FileInputStream ip=new FileInputStream("D:\\WorkSpace\\FlipkartAutomation\\src\\main\\java\\com\\flipkart\\config\\config.properties");
-		prop.load(ip);
+		FileInputStream ip=new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/flipkart"
+				+ "/config/config.properties");
+				prop.load(ip);
 		 }
 		 catch(FileNotFoundException e) {
 			 e.printStackTrace();
