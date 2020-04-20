@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36662" started-at="2020-04-20T19:33:25Z" finished-at="2020-04-20T19:34:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36662" started-at="2020-04-20T19:33:25Z" finished-at="2020-04-20T19:34:02Z">
+      <class name="com.flipkart.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.testcases.HomePageTest@8e0379d]" name="setUp" is-config="true" duration-ms="17602" started-at="2020-04-21T01:03:25Z" finished-at="2020-04-21T01:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:1, instance:com.flipkart.testcases.HomePageTest@8e0379d]" name="verifyUserNameTest" duration-ms="55" started-at="2020-04-21T01:03:43Z" finished-at="2020-04-21T01:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.testcases.HomePageTest@8e0379d]" name="tearDown" is-config="true" duration-ms="715" started-at="2020-04-21T01:03:43Z" finished-at="2020-04-21T01:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.testcases.HomePageTest@8e0379d]" name="setUp" is-config="true" duration-ms="17322" started-at="2020-04-21T01:03:43Z" finished-at="2020-04-21T01:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchResultTest()[pri:2, instance:com.flipkart.testcases.HomePageTest@8e0379d]" name="searchResultTest" duration-ms="229" started-at="2020-04-21T01:04:01Z" finished-at="2020-04-21T01:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.testcases.HomePageTest@8e0379d]" name="tearDown" is-config="true" duration-ms="703" started-at="2020-04-21T01:04:01Z" finished-at="2020-04-21T01:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkart.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
